@@ -1,0 +1,1158 @@
+@import url('https://fonts.googleapis.com/css2?family=Antonio:wght@100..700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+.firstpg {
+    width: 100%;
+    height: 195vh;
+    background-image: url(img/image\ copy.png);
+    position: relative;
+    overflow: hidden;
+    clip-path: circle(77.2% at 51% 0);
+}
+
+
+.firstdata {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+}
+
+.a1 {
+    position: absolute;
+    top: 100px;
+    left: 500px;
+}
+
+.a2 {
+    position: absolute;
+    top: 200px;
+    left: 300px;
+    z-index: 1;
+}
+
+.navbar {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    z-index: 1111111;
+    background: #000000;
+    background: linear-gradient(179deg, rgba(0, 0, 0, 0) 39%, rgba(0, 0, 0, 0.271) 100%);
+    position: relative;
+}
+
+.nav1 {
+    width: 25%;
+    display: flex;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav1 i {
+    color: white;
+    color: white;
+    padding: 18px;
+
+    border-radius: 50%;
+    background-color: rgba(0, 0, 0, 0.315);
+}
+
+.nav1 h3 {
+    font-family: "Antonio", sans-serif;
+    color: white;
+    padding-left: 10px;
+}
+
+.nav2 {
+    width: 60%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.nav2 img {
+    width: 15%;
+}
+
+.nav2 ul {
+    display: flex;
+    gap: 40px;
+}
+
+.nav2 ul li {
+    list-style: none;
+}
+
+.nav2 ul li a {
+    text-decoration: none;
+    font-family: "Antonio", sans-serif;
+    color: white;
+    font-size: 20px;
+}
+
+.nav3 {
+    width: 25%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav3 button {
+    padding: 15px 20px;
+    border-radius: 40px;
+    background-color: rgba(0, 0, 0, 0.252);
+    color: white;
+    border: none;
+    display: flex;
+    gap: 10px;
+}
+
+.a3 img {
+
+    overflow: hidden;
+
+    width: 100%;
+    margin-top: 300px;
+    animation: srk 60s infinite linear;
+
+}
+
+@keyframes srk {
+    0% {
+        transform: rotate(0);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+
+}
+
+.a5 {
+    position: absolute;
+    left: 1090px;
+    top: 470px;
+}
+
+
+.a6 img {
+    width: 18%;
+    position: absolute;
+    top: 300px;
+    left: -120px;
+}
+
+.a4 img {
+    width: 20%;
+    position: absolute;
+    top: 400px;
+    right: -100px;
+
+}
+
+.a7 img {
+    width: 25%;
+    position: absolute;
+    top: 400px;
+    right: 90px;
+
+    animation: srk infinite 20s linear;
+}
+
+.a8 h3 {
+    font-size: 30px;
+    position: absolute;
+    top: 550px;
+    right: 250px;
+    font-family: "Antonio", sans-serif;
+    font-weight: 900;
+
+}
+
+.a9 img {
+    width: 200%;
+    position: absolute;
+    top: 1290px;
+    left: -700px;
+
+}
+
+.a10 {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position:
+        absolute;
+    align-items: center;
+    top: 1040px;
+    left: 650px;
+}
+
+.a10::after {
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    content: '';
+    position: absolute;
+    border: 20px solid rgb(255, 174, 0);
+    background-color: yellow;
+    border-radius: 50%;
+}
+
+.a10 i {
+    background-color: rgb(193, 21, 21);
+    font-size: 20px;
+    padding: 20px;
+    border-radius: 50%;
+    color: white;
+    margin-top: -80px;
+
+}
+
+.a10 h3 {
+    text-align: center;
+    font-size: 45px;
+    font-family: "Antonio", sans-serif;
+    font-weight: 900;
+}
+
+
+
+.threepg {
+    width: 100%;
+    height: 300px;
+    border: 2px solid rgba(255, 0, 0, 0);
+    position: relative;
+
+}
+
+.threepg h1 {
+    margin-top: -150px;
+    text-align: center;
+    font-size: 60px;
+    font-family: "Antonio", sans-serif;
+    font-weight: 900;
+}
+
+.b1 img {
+    width: 16%;
+    left: -20px;
+    position: absolute;
+    top: 0;
+}
+
+.three1 {
+    position: absolute;
+    left: 200px;
+    width: 1100px;
+    height: 200px;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 10px 20px 0px rgba(0, 0, 0, 0.244);
+    flex-wrap: wrap;
+}
+
+.threebox {
+    width: 183px;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    border-left: 1px solid rgba(128, 128, 128, 0.436);
+}
+
+.threebox img {
+    width: 33%;
+    transition: .3s linear;
+
+
+}
+
+.threebox h3 {
+    text-align: center;
+    font-size: 20px;
+    font-family: "Antonio", sans-serif;
+    font-weight: 900;
+    transition: .3s linear;
+
+}
+
+.threebox h2 {
+    margin-bottom: -10px;
+    margin-left: 20px;
+    z-index: 11;
+    padding: 10px;
+    border-radius: 50%;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    font-size: 12px;
+    opacity: 0;
+    transition: .3s linear;
+
+}
+
+.threebox:hover h2 {
+    opacity: 1;
+    transition: .3s linear;
+
+}
+
+.threebox:hover {
+    transform: translateY(-10px);
+    transition: .3s linear;
+
+}
+
+.threebox:hover h3 {
+    border-bottom: 3px solid black;
+    transition: .3s linear;
+
+}
+
+.threebox:hover img {
+    opacity: 50%;
+    transition: .3s linear;
+}
+
+.t1 {
+    display: flex;
+}
+
+.t2 {
+    display: flex;
+}
+
+.fourpg {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    overflow: hidden;
+}
+
+.four1 {
+    width: 100%;
+    display: flex;
+}
+
+.four11 {
+    width: 50%;
+
+    height: 80vh;
+}
+
+
+
+.four11 img {
+    width: 58%;
+    position: absolute;
+    left: -150px;
+
+
+}
+
+.four12 {
+    width: 50%;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    gap: 30px;
+    padding-left: 100px;
+}
+
+.four12 h4 {
+    color: rgb(194, 34, 34);
+    font-size: 20px;
+    font-family: "Antonio", sans-serif;
+    font-weight: 900;
+
+
+}
+
+.four12 h1 {
+    width: 600px;
+    font-size: 70px;
+    font-family: "Antonio", sans-serif;
+    font-weight: 900;
+
+}
+
+.four12 p {
+    width: 420px;
+    color: gray;
+}
+
+.fb {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+
+}
+
+.but1::after {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    border: 2px solid black;
+    z-index: 1;
+    content: '';
+    border-radius: 10px;
+    top: 0;
+    left: -150px;
+    transition: .4s linear;
+}
+
+.but1 {
+    padding: 20px 20px;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+
+    border: 2px solid black;
+    position: relative;
+    transition: .2s linear;
+    overflow: hidden;
+}
+
+.but1:hover span {
+    color: black;
+    z-index: 1111;
+    position: relative;
+    transition: .2s linear;
+
+}
+
+.but1 span {
+    font-size: 15px;
+    font-family: "Antonio", sans-serif;
+    font-weight: 900;
+    z-index: 1111;
+    transition: .2s linear;
+}
+
+.but1:hover::after {
+    left: -2px;
+    transition: .2s linear;
+
+}
+
+.fb i {
+
+    color: rgb(193, 21, 21);
+}
+
+.c1 img {
+    position: absolute;
+    width: 100%;
+    animation: ss linear infinite 30s;
+    z-index: -1111;
+}
+
+@keyframes ss {
+    0% {
+        transform: 0;
+    }
+
+    99% {
+        transform: translateX(1000px);
+
+    }
+}
+
+
+.four2 {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.fbox {
+    width: 300px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.fbox i {
+    font-size: 30px;
+    padding: 20px;
+    border-radius: 50%;
+    box-shadow: 0px 1px 30px 10px rgba(0, 0, 0, 0.089);
+    transition: .3s linear;
+
+}
+
+.fbox:hover i {
+    background-color: black;
+    color: white;
+    transition: .3s linear;
+}
+
+.fbox p {
+    color: gray;
+    font-family: "Antonio", sans-serif;
+}
+
+.fbox h2 {
+    font-family: "Antonio", sans-serif;
+}
+
+.fivepg {
+    width: 100%;
+    height: 110vh;
+    background-color: #ebe5df;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.five1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    padding-top: 100px;
+}
+
+.five1 h4 {
+    font-family: "Antonio", sans-serif;
+    color: rgb(202, 10, 10);
+    font-size: 23px;
+
+}
+
+.five1 h2 {
+    font-family: "Antonio", sans-serif;
+    font-size: 50px;
+    border-left: 1px solid rgba(0, 0, 0, 0.281);
+    padding-left: 50px;
+
+}
+
+
+.fv1 {
+    display: flex;
+    padding: 20px;
+    width: 188px;
+    height: 35px;
+    background-color: orange;
+    align-items: center;
+    gap: 5px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.fv1 i {
+    background-color: orange;
+    color: white;
+}
+
+.fv1 h3 {
+    width: 100px;
+    color: white;
+    background-color: #000000;
+    padding: 15px;
+    font-family: "Antonio", sans-serif;
+
+
+}
+
+.fivebox {
+    width: 230px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    gap: 7px;
+    transition: .4s linear;
+}
+
+.fivebox img {
+    width: 100%;
+}
+
+.fivebox h5 {
+    font-size: 22px;
+    font-family: "Antonio", sans-serif;
+    font-weight: 400;
+}
+
+
+.fivebox h6 {
+    font-size: 25px;
+    font-family: "Antonio", sans-serif;
+}
+
+.fivebox h6 span {
+    color: red;
+    font-size: 25px;
+    font-family: "Antonio", sans-serif;
+    padding-right: 10px;
+
+}
+
+.fivebox h1 {
+    font-size: 20px;
+    position: absolute;
+    color: red;
+    bottom: 34px;
+    left: 45px;
+
+}
+
+.five2 {
+    display: flex;
+    padding-top: 60px;
+    gap: 90px;
+    flex-wrap: wrap;
+}
+
+.fivebox:hover {
+    background-color: white;
+    scale: 1.02;
+    box-shadow: 1px 0px 30px 20px rgba(0, 0, 0, 0.07);
+    transition: .3s linear;
+}
+
+.fivebox:hover img {
+    animation: dd 50s linear infinite;
+}
+
+@keyframes dd {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    99% {
+        transform: rotate(360deg);
+    }
+
+}
+
+.ddd {
+    font-size: 300px;
+    -webkit-text-stroke: 2px rgba(248, 248, 248, 0.086);
+    color: white;
+    font-family: "Antonio", sans-serif;
+    margin-top: -30px;
+
+
+
+}
+
+.sixpg {
+    width: 100%;
+    height: 120vh;
+    display: flex;
+
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.six1 {
+    width: 150px;
+    height: 150px;
+    font-size: 15px;
+    background-color: rgb(34, 34, 34);
+    border-radius: 50%;
+    padding: 50px 40px;
+
+    color: white;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    margin-top: -170px;
+    margin-left: -100px;
+    z-index: 111111;
+    box-shadow: 10px 0px 100px 10px rgba(19, 19, 19, 0.168);
+}
+
+.six3 {
+    width: 100%;
+    height: 500px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-top: 50px;
+}
+
+.sixbox {
+    width: 600px;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+
+
+
+}
+
+.s2 {
+    margin-left: -110px;
+}
+
+.sixbox p {
+    color: gray;
+}
+
+.sixbox h2 {
+    font-family: "Antonio", sans-serif;
+    font-weight: 500;
+
+}
+
+.sixbox h3 {
+    font-family: "Antonio", sans-serif;
+
+}
+
+.sevenpg {
+    width: 100%;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(250, 234, 234);
+    background-color: #ebe5df;
+
+}
+
+.seven1 {
+    width: 100%;
+    height: 350px;
+
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+    padding-top: 100px;
+}
+
+.sev1 {
+    width: 200px;
+
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    flex-direction: column;
+    height: 300px;
+
+}
+
+.sev2 {
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    margin-top: -50px;
+    position: relative;
+    height: 300px;
+}
+
+.sev3 {
+    width: 400px;
+    display: flex;
+    justify-content: start;
+    flex-direction: column;
+    padding: 20px;
+    font-size: 22px;
+    height: 200px;
+    border-left: 1px solid black;
+}
+
+.sss {
+    width: 110px;
+    border-radius: 20px;
+    color: white;
+    font-size: 15px;
+    justify-content: center;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    background-color: rgb(172, 31, 31);
+}
+
+.sev1 h3 {
+    font-family: "Antonio", sans-serif;
+    color: rgb(172, 31, 31);
+
+}
+
+.sev1 h2 {
+    font-family: "Antonio", sans-serif;
+    font-size: 40px;
+
+}
+
+.sev2 img {
+    width: 80%;
+}
+
+.sev2 h3 {
+    transform: rotate(90deg);
+    position: absolute;
+    top: 140px;
+    right: -100px;
+    color: rgb(172, 31, 31);
+    font-family: "Antonio", sans-serif;
+
+
+}
+
+.dd {
+    font-size: 300px;
+    -webkit-text-stroke: 2px rgba(248, 248, 248, 0.086);
+    color: white;
+    font-family: "Antonio", sans-serif;
+    margin-top: -50px;
+    margin-left: 250px;
+
+
+
+
+}
+
+.eightpg {
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    background-color: rgb(255, 255, 255);
+    overflow: hidden;
+}
+
+
+.eight2 {
+    width: 100%;
+    height: 400px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    padding-top: 50px;
+
+}
+
+.eightbox {
+    width: 550px;
+    height: 120px;
+    display: flex;
+    align-items: center;
+    transition: .3s linear;
+}
+
+.e1 {
+    width: 120px;
+    height: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: 1px solid rgba(0, 0, 0, 0.216);
+    border-right: 1px solid rgba(0, 0, 0, 0.171);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.148);
+}
+
+.e1 i {
+    font-size: 40px;
+    transition: .3s linear;
+}
+
+.e2 p {
+    color: gray;
+}
+
+.e2 {
+    width: 400px;
+    height: 120px;
+    border-top: 1px solid rgba(0, 0, 0, 0.211);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.215);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    padding-left: 50px;
+    gap: 5px;
+}
+
+.e2 p {
+    font-size: 15px;
+}
+
+.e2 h3 {
+    font-family: "Antonio", sans-serif;
+
+}
+
+.eightpg img {
+    position: absolute;
+    right: -50px;
+    top: 200px
+}
+
+
+.eightbox:hover i {
+    scale: 1.2;
+    transition: .3s linear;
+}
+
+.eightbox:hover {
+
+    background-color: white;
+    box-shadow: 1px 30px 50px 10px rgba(0, 0, 0, 0.137);
+    transition: .3s linear;
+}
+
+.ninepg {
+    width: 100%;
+    height: 120vh;
+    position: relative;
+
+    overflow: hidden;
+
+
+}
+
+.ninepg::after {
+    position: absolute;
+    width: 250%;
+    height: 180%;
+    border-radius: 50%;
+    z-index: 1;
+    left: -1150px;
+    bottom: -1090px;
+    content: '';
+    background-color: rgb(37, 37, 37);
+
+}
+
+
+
+.nine1 {
+    width: 100%;
+    height: 300px;
+    position: absolute;
+    z-index: 111;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    align-items: center;
+    top: 210px;
+    z-index: 11111;
+
+}
+
+.ninebox {
+    width: 600px;
+    height: 300px;
+    display: flex;
+    background-color: #e6e5e5;
+    border-radius: 5px;
+
+}
+
+.n1 {
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    padding-left: 50px;
+    gap: 10px;
+}
+
+.n1 h3 {
+    width: 150px;
+    color: rgb(172, 31, 31);
+    font-family: "Antonio", sans-serif;
+
+}
+
+.n1 h1 {
+    font-family: "Antonio", sans-serif;
+
+}
+
+.n1 button {
+    padding: 10px 20px;
+    border-radius: 5px;
+    background-color: white;
+    border: none;
+    font-family: "Antonio", sans-serif;
+
+}
+
+.n2 {
+    width: 400px;
+    display: flex;
+    align-items: end;
+    justify-content: end;
+
+
+}
+
+.n2 img {
+    width: 90%;
+}
+
+.nine2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position:
+        absolute;
+    top: 550px;
+    z-index: 1111;
+    left: 300px;
+
+}
+
+.nine2 h1 {
+    font-size: 40px;
+    font-family: "Antonio", sans-serif;
+    color: white;
+    font-weight: 300;
+
+}
+
+.nine2 h1 span {
+    font-size: 40px;
+    font-family: "Antonio", sans-serif;
+    color: white;
+    font-weight: 300;
+    border-bottom: 3px solid white;
+
+}
+
+.nine3 {
+    width: 100%;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position:
+        absolute;
+    top: 570px;
+    z-index: 1111;
+
+
+}
+
+.nn1 {
+    width: 300px;
+    height: 200px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+
+.nn1 img {
+    width: 50%;
+
+}
+
+.nn2 {
+    width: 300px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    padding-left: 30px;
+    gap: 10px
+}
+
+.nn2 h3 {
+    color: white;
+    width: 200px;
+}
+
+.nn2 p {
+    color: rgb(132, 132, 132);
+    font-weight: 100;
+    line-height: 25px;
+    width: 200px;
+}
+
+.ni {
+    width: 200px;
+    height: 50px;
+    color: white;
+    gap: 5px;
+}
+
+.ni i {
+    padding: 17px;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.085);
+    transition: .3s linear;
+}
+
+.ni i:hover {
+    color: black;
+    background-color: white;
+    transition: .3s linear;
+}
+
+.nine4 {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: absolute;
+    top: 820px;
+    border-top: 1px solid rgba(128, 128, 128, 0.359);
+    z-index: 1111;
+    padding-top: 20px;
+
+}
+
+.nine4 ul {
+    display: flex;
+    gap: 20px;
+
+}
+
+.nine4 ul li {
+    list-style: none;
+}
+
+.nine4 ul li a {
+    color: gray;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.nine4 h3 {
+    color: gray;
+}
+
+.nine4 h3 span {
+    color: white;
+    border-bottom: 2px solid white;
+}

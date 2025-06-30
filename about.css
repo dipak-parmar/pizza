@@ -1,0 +1,587 @@
+@import url('https://fonts.googleapis.com/css2?family=Antonio:wght@100..700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.firstpg{
+    width: 100%;
+    height: 150vh;
+    background-image: url(img/image\ copy\ 39.png);
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.firstpg img{
+    width: 100%;
+}
+
+.ff11 h1{
+    font-size: 50px;
+        font-family: "Antonio", sans-serif;
+        color: white;
+        display: flex;
+        align-items: center;
+        font-weight: 500;
+        letter-spacing: -3px;
+        gap: 30px;
+        position: absolute;
+        left: 500px;
+        top: 150px;
+
+}
+
+.firstpg h1 span{
+        font-size: 20px;
+        color: yellow;
+              letter-spacing: 1px;
+
+        font-family: "Antonio", sans-serif;
+        padding-left: 30px;
+        border-left: 1px solid yellow;
+
+}
+
+
+.navbar {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    z-index: 1111111;
+    background: #000000;
+    background: linear-gradient(179deg, rgba(0, 0, 0, 0) 39%, rgba(0, 0, 0, 0.271) 100%);
+}
+
+.nav1 {
+    width: 25%;
+    display: flex;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav1 i {
+    color: white;
+    color: white;
+    padding: 18px;
+
+    border-radius: 50%;
+    background-color: rgba(0, 0, 0, 0.315);
+}
+
+.nav1 h3 {
+    font-family: "Antonio", sans-serif;
+    color: white;
+    padding-left: 10px;
+}
+
+.nav2 {
+    width: 60%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.nav2 img {
+    width: 15%;
+}
+
+.nav2 ul {
+    display: flex;
+    gap: 40px;
+}
+
+.nav2 ul li {
+    list-style: none;
+}
+
+.nav2 ul li a {
+    text-decoration: none;
+    font-family: "Antonio", sans-serif;
+    color: white;
+    font-size: 20px;
+}
+
+.nav3 {
+    width: 25%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav3 button {
+    padding: 15px 20px;
+    border-radius: 40px;
+    background-color: rgba(0, 0, 0, 0.252);
+    color: white;
+    border: none;
+    display: flex;
+    gap: 10px;
+}
+
+.firstdata{
+    width: 100%;
+    display: flex;
+    height: 100vh;
+    position: absolute;
+    top: 300px;
+}
+
+.first1{
+    width: 50%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-self: start;
+    justify-content: center;
+    padding: 50px 10px 10px 190px;
+    gap: 30px
+}
+
+.first2{
+    width: 50%;
+    height: 100vh;
+    position: relative;
+
+}
+
+.fir1{
+    position: absolute;
+    top: 150px;
+    width: 500px;
+    height: 500px;
+    left: 190px;
+    background-image: url(img/image\ copy\ 41.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 20px;
+}
+
+.fir2{
+    position: absolute;
+    top: 290px;
+    width: 360px;
+    height: 400px;
+       background-image: url(img/image\ copy\ 42.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    left: 50px;
+    border-radius: 20px;
+    background-position: center;
+}
+.fi2 img{
+    position: absolute;
+    width: 100%;
+
+}
+.first1 h3{
+    color: red;        font-family: "Antonio", sans-serif;
+
+
+}
+
+.first1 h1{
+    color: black;        font-family: "Antonio", sans-serif;
+
+}
+
+.first1 p{
+    color: gray;
+}
+
+.f1{
+    width: 500px;
+    display: flex;
+    height: 50px;
+    align-items: center;
+    gap: 20px;
+}
+
+.first1 h1{
+    font-size: 50px;        font-family: "Antonio", sans-serif;
+
+}
+
+.f2{
+    width:500px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    
+}
+
+
+.f2 h2{
+    width: 200px;
+    font-size: 20px;
+    display: flex;
+
+        font-family: "Antonio", sans-serif;
+
+}
+
+.f2 img{
+    width: 30%;
+}
+
+
+.but1::after {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    border: 2px solid black;
+    z-index: 1;
+    content: '';
+    border-radius: 10px;
+    top: 0;
+    left: -190px;
+    transition: .4s linear;
+}
+
+.but1 {
+    padding: 10px 20px;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+
+    border: 2px solid black;
+    position: relative;
+    transition: .2s linear;
+    overflow: hidden;
+}
+
+.but1:hover span {
+    color: black;
+    z-index: 1111;
+    position: relative;
+    transition: .2s linear;
+
+}
+
+.but1 span {
+    font-size: 15px;
+    font-family: "Antonio", sans-serif;
+    font-weight: 900;
+    z-index: 1111;
+    transition: .2s linear;
+    background: none;
+}
+
+.but1:hover::after {
+    left: 0px;
+    transition: .2s linear;
+
+}
+
+
+.but1 button{
+    background-color: black;
+    color: white;
+    border: none;
+}
+
+.first1 p{
+    width: 450px;
+}
+
+.secpg{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.sec1{
+    padding-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+.s1{
+    width: 350px;
+    height: 400px;
+    background-image: url(img/image\ copy\ 43.png);
+    background-size: cover;
+    border-radius: 10px;
+}
+
+
+.s2{
+    width: 350px;
+    height: 300px;
+      background-image: url(img/image\ copy\ 44.png);
+    background-size: cover;
+    border-radius: 10px;
+}
+
+.s3{
+    width: 350px;
+    height: 400px;
+    background-image: url(img/image\ copy\ 45.png);
+    background-size: cover;
+    border-radius: 10px;
+}
+
+
+
+.secpg h3{
+    text-align: center;
+    width: 600px;
+    font-weight: 500;
+    color: red;
+            font-family: "Antonio", sans-serif;
+
+}
+
+.secpg h1{
+    width: 800px;
+    text-align: center;
+    color: black;
+    font-weight: 900;
+        font-family: "Antonio", sans-serif;
+}
+
+
+.ninepg {
+    width: 100%;
+    height: 120vh;
+    position: relative;
+
+    overflow: hidden;
+
+
+}
+
+.ninepg::after {
+    position: absolute;
+    width: 250%;
+    height: 180%;
+    border-radius: 50%;
+    z-index: 1;
+    left: -1150px;
+    bottom: -1090px;
+    content: '';
+    background-color: rgb(37, 37, 37);
+
+}
+
+
+
+.nine1 {
+    width: 100%;
+    height: 300px;
+    position: absolute;
+    z-index: 111;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    align-items: center;
+    top: 210px;
+    z-index: 11111;
+
+}
+
+.ninebox {
+    width: 600px;
+    height: 300px;
+    display: flex;
+    background-color: #e6e5e5;
+    border-radius: 5px;
+
+}
+
+.n1 {
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    padding-left: 50px;
+    gap: 10px;
+}
+
+.n1 h3 {
+    width: 150px;
+    color: rgb(172, 31, 31);
+    font-family: "Antonio", sans-serif;
+
+}
+
+.n1 h1 {
+    font-family: "Antonio", sans-serif;
+
+}
+
+.n1 button {
+    padding: 10px 20px;
+    border-radius: 5px;
+    background-color: white;
+    border: none;
+    font-family: "Antonio", sans-serif;
+
+}
+
+.n2 {
+    width: 400px;
+    display: flex;
+    align-items: end;
+    justify-content: end;
+
+
+}
+
+.n2 img {
+    width: 90%;
+}
+
+.nine2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position:
+        absolute;
+    top: 550px;
+    z-index: 1111;
+    left: 300px;
+
+}
+
+.nine2 h1 {
+    font-size: 40px;
+    font-family: "Antonio", sans-serif;
+    color: white;
+    font-weight: 300;
+
+}
+
+.nine2 h1 span {
+    font-size: 40px;
+    font-family: "Antonio", sans-serif;
+    color: white;
+    font-weight: 300;
+    border-bottom: 3px solid white;
+
+}
+
+.nine3 {
+    width: 100%;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position:
+        absolute;
+    top: 570px;
+    z-index: 1111;
+
+
+}
+
+.nn1 {
+    width: 300px;
+    height: 200px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+
+.nn1 img {
+    width: 50%;
+
+}
+
+.nn2 {
+    width: 300px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    padding-left: 30px;
+    gap: 10px
+}
+
+.nn2 h3 {
+    color: white;
+    width: 200px;
+}
+
+.nn2 p {
+    color: rgb(132, 132, 132);
+    font-weight: 100;
+    line-height: 25px;
+    width: 200px;
+}
+
+.ni {
+    width: 200px;
+    height: 50px;
+    color: white;
+    gap: 5px;
+}
+
+.ni i {
+    padding: 17px;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.085);
+    transition: .3s linear;
+}
+
+.ni i:hover {
+    color: black;
+    background-color: white;
+    transition: .3s linear;
+}
+
+.nine4 {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: absolute;
+    top: 820px;
+    border-top: 1px solid rgba(128, 128, 128, 0.359);
+    z-index: 1111;
+    padding-top: 20px;
+
+}
+
+.nine4 ul {
+    display: flex;
+    gap: 20px;
+
+}
+
+.nine4 ul li {
+    list-style: none;
+}
+
+.nine4 ul li a {
+    color: gray;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.nine4 h3 {
+    color: gray;
+}
+
+.nine4 h3 span {
+    color: white;
+    border-bottom: 2px solid white;
+}
+
+
+
+
